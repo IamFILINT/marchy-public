@@ -23,4 +23,4 @@ Marchy is created by [FILINT](https://github.com/IamNOTfilint).
 
 ## License
 
-Our original documentation and website code are MIT. Upstream projects retain their own licenses. This repository does not vendor upstream source code; see `CREDITS.md` and `docs/src/content/docs/upstream.md`.
+The website and the documentation in this repository are MIT licensed. Marchy's **own operating system source code is proprietary** — Marchy itself is free to use. Upstream projects retain their own licenses. This repository does not vendor upstream source code; see `CREDITS.md` and `docs/src/content/docs/upstream.md`.

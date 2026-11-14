@@ -1,6 +1,6 @@
 ---
 title: Upstream projects
-description: The root Marchy builds on.
+description: The upstream projects Marchy builds on — Arch Linux, Hyprland, Quickshell, systemd and the Linux kernel.
 ---
 
 # Upstream projects
@@ -10,8 +10,8 @@ Marchy builds on the following upstream projects. We link to their main project 
 ## Desktop baseline
 
 - [Omarchy](https://github.com/omacom/omarchy) — MIT. Marchy is an independent rebranded development, not a fork in the GitHub network sense.
-- [Hyprland](https://github.com/hyprwm/Hyprland) — compositor.
-- [Quickshell](https://github.com/quickshell-mirror/quickshell) — shell toolkit.
+- [Hyprland](https://github.com/hyprwm/Hyprland) — the Wayland tiling compositor Marchy runs.
+- [Quickshell](https://github.com/quickshell-mirror/quickshell) — the shell toolkit behind the bar, widgets, and launcher.
 
 ## Base system
 
@@ -22,3 +22,5 @@ Marchy builds on the following upstream projects. We link to their main project 
 ## Licensing note
 
 Each upstream project keeps its own license. If Marchy distributes binaries, it must comply with the source obligations of the licenses involved. This repository is not a source mirror and does not satisfy those obligations by itself.
+
+The documentation and the website are MIT licensed. Marchy's own source code is proprietary, and Marchy itself is free to use.

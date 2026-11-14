@@ -1,6 +1,6 @@
 ---
 title: Credits
-description: Upstream projects Marchy builds on.
+description: Upstream projects Marchy builds on — Arch Linux, Hyprland, Quickshell, Omarchy, systemd and the Linux kernel.
 ---
 
 # Credits

@@ -4,6 +4,10 @@ Marchy is created by [FILINT](https://github.com/IamNOTfilint).
 
 Marchy is an independent project. It builds on the work of these projects. This repository links to their official project pages for attribution and respect; it does not vendor their source code.
 
+## Licensing
+
+The website and the documentation in this repository are MIT licensed (see `LICENSE`). Marchy's **own operating system source code is proprietary** and is distributed separately; Marchy itself is free to use. The projects listed below retain their own licenses, and Marchy complies with their terms.
+
 | Project | Link | Role |
 |---|---|---|
 | Omarchy | https://github.com/omacom/omarchy | Baseline desktop experience (MIT) |
