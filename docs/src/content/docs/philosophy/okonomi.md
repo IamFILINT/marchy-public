@@ -1,6 +1,6 @@
 ---
 title: Okonomi and Okimari
-description: How Marchy balances user choice with a safe floor — Okonomi (as you like it) and Okimari (a fixed course) on Arch Linux and Hyprland.
+description: How Marchy balances user choice with a safe floor — Okonomi (as you like it) and Okimari (a fixed course).
 ---
 
 # Okonomi and Okimari
@@ -9,7 +9,7 @@ Marchy's design rule is simple:
 
 > Okonomi for taste. Okimari for safety.
 
-It is the rule that makes an [Arch Linux](../) desktop with [Hyprland](https://hyprland.org) feel like a desk rather than a checklist: the taste layer is entirely yours, and the safety layer is not negotiable by accident.
+It is the rule that makes a desktop feel like a desk rather than a checklist: the taste layer is entirely yours, and the safety layer is not negotiable by accident.
 
 ## Okonomi: as you like it
 

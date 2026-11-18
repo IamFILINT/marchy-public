@@ -1,4 +1,4 @@
-# Marchy — https://iamnotfilint.github.io/marchy-public/
+# Marchy — https://iamfilint.github.io/marchy-public/
 #
 # Everything on this site is public and meant to be indexed.
 # Only the 404 handler is kept out of the index so soft-404s never enter it.
@@ -8,4 +8,4 @@ Allow: /
 
 Disallow: /404.html
 
-Sitemap: https://iamnotfilint.github.io/marchy-public/sitemap.xml
+Sitemap: https://iamfilint.github.io/marchy-public/sitemap.xml

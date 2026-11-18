@@ -2,16 +2,16 @@
 
 Documentation, website, and upstream credits for Marchy.
 
-Marchy is an independent, rebranded development of the Omarchy desktop experience. It is not affiliated with or endorsed by the Omarchy project.
+Marchy is an independent operating system by FILINT. It is not affiliated with or endorsed by any other project.
 
 ## Repositories
 
 - **OS source:** private (`IamNOTfilint/marchy`)
 - **Public home:** this repository — docs, website, credits
-- **Website:** https://iamnotfilint.github.io/marchy-public/
-- **Docs:** https://iamnotfilint.github.io/marchy-public/docs/
+- **Website:** https://iamfilint.github.io/marchy-public/
+- **Docs:** https://iamfilint.github.io/marchy-public/docs/
 
-Marchy is created by [FILINT](https://github.com/IamNOTfilint).
+Marchy is created by [FILINT](https://github.com/IamFILINT).
 
 ## Philosophy
 

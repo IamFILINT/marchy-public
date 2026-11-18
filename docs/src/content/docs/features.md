@@ -1,19 +1,17 @@
 ---
 title: Features and the safety floor
-description: What Marchy gives you — Hyprland on Arch Linux, Okonomi and Okimari presets, a hard safety floor, and a desktop that assumes a coding agent is running beside you.
+description: What Marchy gives you — Okonomi and Okimari presets, a hard safety floor, and a desktop that assumes a coding agent is running beside you.
 ---
 
 # Features and the safety floor
 
-Marchy is an [Arch Linux](https://archlinux.org) desktop built on the [Hyprland](https://hyprland.org) compositor. Here is what that means in practice.
-
 ## The desktop
 
-- **Hyprland** — Wayland tiling window manager. Animated, keyboard-driven, and scriptable.
-- **Quickshell** — the shell toolkit the bar, widgets, launcher, and notification daemon are drawn with.
-- **Kitty** — the terminal. GPU-rendered, with ligatures and per-shell configuration.
-- **PipeWire and WirePlumber** — one sound stack for everything, with per-application routing.
-- **A modern portal stack** — `xdg-desktop-portal-hyprland`, so screen sharing, clipboard, and file pickers behave.
+- **A tiling window manager** — animated, keyboard-driven, and scriptable from the shell.
+- **A rebuildable shell** — the bar, widgets, launcher, notification daemon and lock screen are configuration, not code.
+- **A fast terminal** — GPU-rendered, with ligatures and per-shell configuration.
+- **One sound stack** — with per-application routing and no system-wide daemon you have to babysit.
+- **A modern portal stack** — so screen sharing, clipboard and file pickers behave.
 
 ## Choice: Okonomi
 
@@ -43,10 +41,10 @@ Some things are not taste. These stay on by default:
 - firewall active, default deny
 - full-disk encryption
 - signed packages
-- no passwordless sudo
+- no passwordless privilege escalation
 - no telemetry
 
-Advanced users can change safety settings only through an explicit path with warnings. The default is safe.
+Advanced users can change safety settings only through an explicit path that warns first. The default is safe.
 
 ## Built for the age of agents
 
@@ -55,13 +53,13 @@ Marchy assumes a coding agent is running on the same machine as you.
 - A terminal that is fast to type into and easy to read from a transcript.
 - Window management that is scriptable, so an agent can place a window exactly where it belongs.
 - No background telemetry, so nothing about your machine leaves it by default.
-- A sane, conventional base — Arch Linux with `pacman` and the AUR — so an agent can install what it needs without fighting the platform.
+- **Sandboxes with rollback** — an agent can work inside an isolated environment snapshotted before it starts and discarded after, so a bad run costs nothing.
 
 ## Base system
 
-- Arch Linux, rolling release, `pacman` with the AUR.
-- systemd as init and service manager.
-- The Linux kernel, with `linux-firmware` preinstalled.
-- Wayland only. X11 is not part of the target.
+- A coherent base: kernel, userland and documentation developed together.
+- Snapshots and boot environments, so a bad update is a reboot away.
+- Isolated environments for agents and untrusted work.
+- A single package manager with verified signatures.
 
-Upstream projects and their licences are listed in [Upstream projects](./upstream/).
+Component licences are listed in [third-party licenses](https://github.com/IamFILINT/marchy-public/blob/main/website/THIRD-PARTY-LICENSES.md).

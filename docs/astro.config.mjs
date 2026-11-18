@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
-const SITE = 'https://iamnotfilint.github.io';
+const SITE = 'https://iamfilint.github.io';
 const BASE = '/marchy-public/docs';
 const OG_IMAGE = `${SITE}${BASE}/marchy-og.png`;
 
@@ -13,7 +13,7 @@ export default defineConfig({
       title: 'Marchy',
       titleDelimiter: '—',
       description:
-        'Marchy is an Arch Linux desktop by FILINT — Okonomi (your way) and Okimari (safe defaults), built on Hyprland.',
+        'Marchy is an operating system by FILINT — Okonomi (your way) and Okimari (safe defaults).',
       favicon: '/favicon.svg',
       head: [
         { tag: 'meta', attrs: { name: 'robots', content: 'index, follow, max-image-preview:large' } },
@@ -41,7 +41,7 @@ export default defineConfig({
         {
           icon: 'github',
           label: 'GitHub',
-          href: 'https://github.com/IamNOTfilint/marchy-public',
+          href: 'https://github.com/IamFILINT/marchy-public',
         },
       ],
       sidebar: [
@@ -58,13 +58,6 @@ export default defineConfig({
           label: 'Philosophy',
           items: [
             { label: 'Okonomi and Okimari', link: '/philosophy/okonomi/' },
-          ],
-        },
-        {
-          label: 'Reference',
-          items: [
-            { label: 'Upstream projects', link: '/upstream/' },
-            { label: 'Credits', link: '/credits/' },
           ],
         },
       ],

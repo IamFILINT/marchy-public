@@ -1,7 +1,7 @@
 {
   "name": "Marchy",
   "short_name": "Marchy",
-  "description": "A beautiful, fun, agentic Arch Linux desktop by FILINT — Okonomi (your way) and Okimari (safe defaults).",
+  "description": "A beautiful, fun, agentic operating system by FILINT — Okonomi (your way) and Okimari (safe defaults).",
   "id": "/marchy-public/",
   "start_url": "/marchy-public/",
   "scope": "/marchy-public/",
